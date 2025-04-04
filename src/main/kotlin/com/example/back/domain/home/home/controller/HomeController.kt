@@ -12,6 +12,6 @@ class HomeController {
 
     @GetMapping
     fun home(): String {
-        return "Hello, World, $secretValue"
+        return "New Hello, World, $secretValue"
     }
 }
